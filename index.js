@@ -153,4 +153,12 @@ console.log("We remove the last element:");
 carsForRent.pop();
 console.log(carsForRent)
 
+/* EXERCISE 11
+ Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
+*/
 
+console.log("\n--------Exercise 11-----------\n")
+
+console.log(typeof car1);
+console.log(typeof car1.licensePlate);
+console.log(typeof car1.brand)
