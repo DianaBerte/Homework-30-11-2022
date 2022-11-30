@@ -180,9 +180,9 @@ console.log("We added Car3, Car4 and Car5 to the empty array carsForSale:", cars
 
 console.log("\n--------Exercise 13-----------\n")
 
-for (let i = 0; i < carsForSale.length; i++) {
+for (let i = 0; i < carsForSale.length; i += 1) {
     let carsToPrint = carsForSale[i];
-    console.log("Cars for Sale:", carsToPrint);
+    console.log(carsToPrint);
 }
 
 
