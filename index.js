@@ -57,5 +57,30 @@ let someoneElse = {
     emailAddress2: "randomemail@gmail.com",
 }
 
-console.log("Verifying that my email address is different than someone else's:")
+console.log("Verifying that the email address of the object myslef is different than the email address of object someoneElse:")
 console.log(myself.emailAddress !== someoneElse.emailAddress2)
+
+/* EXERCISE 6
+ You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
+ Currently you have a promotion: if the customer's shopping cart total is more than 50, the user is eligible for free shipping (otherwise it costs 10).
+ Write an algorithm that calculates the total cost to charge the user with.
+*/
+
+console.log("\n--------Exercise 6-----------\n")
+
+let totalShoppingCart  = 51;
+if (totalShoppingCart > 50) {
+    console.log("Congratulations! You're eligible for free shipping.");
+    } else {
+        console.log("Sorry, you are not eligible for free shipping.")
+    }
+
+/* EXERCISE 7
+ You are working on an e-commerce website. Today is Black Friday and everything has a 20% discount at the end of the purchase.
+ Modify the previous answer inserting this information and, applying the same rules for the shipping cost, calculate the totalCost.
+*/
+
+console.log("\n--------Exercise 7-----------\n")
+
+
+
