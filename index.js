@@ -145,3 +145,12 @@ console.log("Array of cars:", carsForRent)
 */
 
 console.log("\n--------Exercise 10-----------\n")
+
+console.log("We remove the last element:");
+carsForRent.pop();
+console.log(carsForRent)
+
+carsForRent.splice(0, 1, 0);
+console.log("We remove the first element:", carsForRent)
+
+
