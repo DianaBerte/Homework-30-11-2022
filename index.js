@@ -82,5 +82,52 @@ if (totalShoppingCart > 50) {
 
 console.log("\n--------Exercise 7-----------\n")
 
+let totalShoppingCart2 = [10, 15, 25];
+let discount = 20;
 
+for (let i = 20; i < totalShoppingCart2.length;
+    i++) {
+        discount += totalShoppingCart2[i]
+    }
+
+console.log(totalShoppingCart2)
+
+/* EXERCISE 8
+ Create a variable and assign to it an object representing a car, with properties like brand, model and licensePlate.
+ Then clone it 5 times, and change the licensePlate for each cloned car without affecting the original one.
+*/
+
+console.log("\n--------Exercise 8-----------\n")
+
+let car1 = {
+    brand: "Mercedes",
+    model: "X",
+    licensePlate: "PF563WR"
+}
+
+let car2 = {}
+car2 = Object.assign(car2, car1);
+
+car2.licensePlate = "AB563AB"
+
+let car3 = {}
+car3 = Object.assign(car3, car2)
+
+car3.licensePlate = "CD563CD"
+
+let car4 = {}
+car4 = Object.assign(car4, car3)
+
+car4.licensePlate = "EF563EF"
+
+let car5 = {}
+car5 = Object.assign(car5, car4)
+
+car5.licensePlate = "ZY563ZY"
+
+console.log("Car 1:", car1)
+console.log("Car 2:", car2)
+console.log("Car 3:", car3)
+console.log("Car 4:", car4)
+console.log("Car 5:", car5)
 
