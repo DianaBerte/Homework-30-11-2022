@@ -57,4 +57,5 @@ let someoneElse = {
     emailAddress2: "randomemail@gmail.com",
 }
 
-
+console.log("Verifying that my email address is different than someone else's:")
+console.log(myself.emailAddress !== someoneElse.emailAddress2)
