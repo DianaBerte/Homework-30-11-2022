@@ -160,3 +160,29 @@ console.log(carsForRent)
 console.log("\n--------Exercise 11-----------\n")
 
 console.log(typeof car1, typeof car1.licensePlate, typeof car1.brand);
+
+/* EXERCISE 12
+ Create a new variable called carsForSale assigning to it an empty array, and then insert 3 cars into it.
+ Create a new variable called totalCars and assign to it the total number of cars present in the carsForSale and carsForRent arrays.
+*/
+
+console.log("\n--------Exercise 12-----------\n")
+
+let carsForSale = [];
+carsForSale.splice(0, 0, car3);
+carsForSale.splice(1, 0, car4);
+carsForSale.splice(2, 0, car5);
+console.log("We added Car3, Car4 and Car5 to the empty array carsForSale:", carsForSale)
+
+/* EXERCISE 13
+ Using a loop, print to the console all the data for each car in the carsForSale array.
+*/
+
+console.log("\n--------Exercise 13-----------\n")
+
+for (let i = 0; i < carsForSale.length; i++) {
+    let carsToPrint = carsForSale[i];
+    console.log("Cars for Sale:", carsToPrint);
+}
+
+
