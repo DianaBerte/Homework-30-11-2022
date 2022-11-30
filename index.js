@@ -159,6 +159,4 @@ console.log(carsForRent)
 
 console.log("\n--------Exercise 11-----------\n")
 
-console.log(typeof car1);
-console.log(typeof car1.licensePlate);
-console.log(typeof car1.brand)
+console.log(typeof car1, typeof car1.licensePlate, typeof car1.brand);
